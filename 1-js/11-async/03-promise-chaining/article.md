@@ -84,7 +84,7 @@ Tous les `.then` sur la même promesse obtiennent le même résultat - le résul
 
 En pratique, nous avons rarement besoin de plusieurs gestionnaires pour une même promesse. Le chaînage est utilisé beaucoup plus souvent.
 
-## Renvoie de promesses
+## Renvoi de promesses
 
 Un gestionnaire, utilisé dans `.then(handler)` peut créer et renvoyer une promesse.
 
