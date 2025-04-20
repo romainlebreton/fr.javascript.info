@@ -291,7 +291,7 @@ fetch('/article/promise-chaining/user.json')
 
 Le code fonctionne ; voir les commentaires à propos des détails. Pourtant, il y a un problème potentiel, une erreur typique de ceux qui commencent à utiliser les promesses.
 
-Regardez la ligne `(*)`: comment pouvons-nous faire quelque chose *après* l'avatar a fini d'afficher et d'être supprimé ? Par exemple, nous aimerions montrer un formulaire pour éditer cet utilisateur ou autre chose. Pour l'instant, il n'y a pas moyen.
+Regardez la ligne `(*)`: comment pouvons-nous faire quelque chose *après* que l'avatar a fini d'afficher et d'être supprimé ? Par exemple, nous aimerions pouvoir afficher un formulaire permettant d'éditer cet utilisateur ou autre chose. Pour l'instant, il n'y a pas moyen d'y parvenir.
 
 Pour rendre la chaîne extensible, nous devons retourner une promesse qui sera résolue une fois que l'avatar aura fini de s'afficher.
 
